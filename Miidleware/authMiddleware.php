@@ -1,6 +1,6 @@
 <?php
 // Define the excluded endpoints
-$excluded_endpoints = array('/login', '/register');
+$excluded_endpoints = array('db_migration.php', 'db_seeder.php', '/login', '/register');
 
 // Get the request URI
 $request_uri = $_SERVER['REQUEST_URI'];
